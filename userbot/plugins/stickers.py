@@ -58,7 +58,7 @@ async def _(event):
     else:
         packname = f"{DEFAULTUSER}'s Thunderuserbot Vol.{pack}"
         packshortname = f"Thunderuserbot_{userid}_kang"
-    await event.edit("`Look that way,it's a gay!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
+    await event.edit("`I want this sticker!\nWait, ⚡️Thunderuserbot⚡️ is kanging it for you :) `")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@thunderuserbot.png"
