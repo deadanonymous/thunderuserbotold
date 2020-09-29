@@ -16,7 +16,7 @@ Best User Bot To Manage Your Telegram Account
 <a href="https://t.me/thunderuserbotchat"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 ## Don't Forget To Give A Star ⭐
 
-## FORK NOT ALLOWED !
+## IF YOU WILL FORK THEN YOU WILL NOT GET NEW UPDATES !
 
 
 ### Deploy Thunderuserbot In Heroku
@@ -76,4 +76,4 @@ Support Config.
 
 ##  CONTRIBUTIONS IN MAKING BASE FOR USERBOT WORLD
 
-Thanks to Uniborg™,Paperplane™,Indianbot™,Thundergang™
+Thanks to Uniborg™,Paperplane™,Indianbot™,Thundergang™, All other userbot communities because we all are working to help and serve others and making everything better (It's not a competition)
