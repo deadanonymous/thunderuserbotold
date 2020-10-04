@@ -122,7 +122,7 @@ async def on_afk(event):
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = f"My Master Has Been Gone From {afk_since}\n[I am ⚡️ThunderUserbot⚡️](https://t.me/thunderuserbot)" + \
-            f"\n\n__ IDK When My Master Will Come Back And He Is Gone Because__**REASON**: {reason}" \
+            f"\n\n__ IDK When My Master Will Come Back And He Is Gone Because__ **REASON**: {reason}" \
             if reason \
             else f"**Important Notice**\n\n[This User Is Dead Please Let Him/Her RIP...](https://telegra.ph/file/4f59fa7da4d970bd0e644.jpg) "
         msg = await event.reply(message_to_reply)
