@@ -121,10 +121,10 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"My Master Has Been Gone For {afk_since}\nWhere He Is: WHY WOULD I TELL YOU" + \
+        message_to_reply = f"My Master Has Been Gone For {afk_since}\nThen Who Am I: I am ThunderUserbot" + \
             f"\n\n__ I'll back in a few hours__\n**REASON**: {reason}" \
             if reason \
-            else f"**Important Notice**\n\n[This User Is RIP so contact your new friend DeadAnonymous...](https://telegra.ph/file/7baef19d43a7fca0f3467.jpg) "
+            else f"**Important Notice**\n\n[This User Is Dead Please Let Him/Her RIP...](https://telegra.ph/file/4f59fa7da4d970bd0e644.jpg) "
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
