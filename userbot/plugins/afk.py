@@ -24,7 +24,7 @@ async def set_not_afk(event):
         try:
             await borg.send_message(  # pylint:disable=E0602
                 Config.PLUGIN_CHANNEL,  # pylint:disable=E0602
-                "My Owner has gone for some work so he is very busy🥳🥳🥳"
+                "My Owner has came back🥳🥳🥳"
             )
         except Exception as e:  # pylint:disable=C0103,W0703
             await borg.send_message(  # pylint:disable=E0602
@@ -121,7 +121,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"My Master Has Been Gone From {afk_since}\n[I am ⚡️ThunderUserbot⚡️](https://t.me/thunderuserbot)" + \
+        message_to_reply = f"My Master Has Been Gone From {afk_since}\nI am ⚡️ThunderUserbot⚡️" + \
             f"\n\n__ IDK When My Master Will Come Back And He Is Gone Because__ **REASON**: {reason}" \
             if reason \
             else f"**Important Notice**\n\n[This User Is Dead Please Let Him/Her RIP...](https://telegra.ph/file/4f59fa7da4d970bd0e644.jpg) "
