@@ -54,7 +54,7 @@ async def _(event):
         packshortname = "Thundergang_ke_locker_me"
     else:
         packname = f"{DEFAULTUSER}'s Thunderuserbot Vol.{pack}"
-        packshortname = f"Thunderuserbot_{userid}_kang"
+        packshortname = f"Thunderuserbot_{DEFAULTUSER}_kang"
     await event.edit(
         "`I want this sticker!\nWait, ⚡️Thunderuserbot⚡️ is kanging it for you :)`"
     )
@@ -71,7 +71,7 @@ async def _(event):
             packshortname = "Thundergang_ke_Animated"
         else:
             packname = f"{DEFAULTUSER}'s Thunderuserbot Animated Vol.{pack}"
-            packshortname = f"Thunderuserbot_{userid}"  # format: Uni_Borg_userid
+            packshortname = f"Thunderuserbot_{DEFAULTUSER}"  # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
@@ -130,7 +130,7 @@ async def _(event):
                     pack += 1
                     prevv = int(pack) - 1
                     packname = f"{DEFAULTUSER}'s Thunderuserbot Vol.{pack}"
-                    packshortname = f"Vol_{pack}_with_{userid}"
+                    packshortname = f"Vol_{pack}_with_{DEFAULTUSER}"
                     # if userid == 953414679:
                     # packname = f"{user.first_name}'s Thunderuserbot Vol.{pack}"
                     # packshortname = "Vol._{pack}_Thundergang_ke_locker_me"
