@@ -49,7 +49,7 @@ async def _(event):
     userid = event.from_id
     # packname = f"Thundergang™keStickers"
     # packshortname = f"Thunderuserbot_{userid}_ns"  # format: Uni_Borg_userid
-    if userid == 1333182283:
+    if userid == 953414679:
         packname = f"ThundergangkeStickers"
         packshortname = "Thundergang_ke_locker_me"
     else:
@@ -66,7 +66,7 @@ async def _(event):
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        if userid == 1333182283:
+        if userid == 953414679:
             packname = f"ThundergangkeAnimeted"
             packshortname = "Thundergang_ke_Animated"
         else:
@@ -131,7 +131,7 @@ async def _(event):
                     prevv = int(pack) - 1
                     packname = f"{DEFAULTUSER}'s Thunderuserbot Vol.{pack}"
                     packshortname = f"Vol_{pack}_with_{userid}"
-                    # if userid == 1333182283:
+                    # if userid == 953414679:
                     # packname = f"{user.first_name}'s Thunderuserbot Vol.{pack}"
                     # packshortname = "Vol._{pack}_Thundergang_ke_locker_me"
                     # else:
